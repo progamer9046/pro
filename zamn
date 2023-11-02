@@ -1,1 +1,580 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/progamer9046/e/main/70ythposter?token=GHSAT0AAAAAACJYGGDQXPIKML44CAYVYNC6ZKDLFBQ"))()
+getgenv()["IrisAd"] = true
+wait(0.25)
+
+-- Library
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+-- Update Logs/Wait Screen
+Notification.Notify("gui loaded(noob)", "removing in 5 econds", "rbxassetid://8910839703", {
+    Duration = 4,
+    
+    TitleSettings = {
+        TextXAlignment = Enum.TextXAlignment.Center,
+        Font = Enum.Font.SourceSansSemibold,
+    },
+
+    GradientSettings = {
+        GradientEnabled = false,
+        SolidColorEnabled = true,
+        SolidColor = Color3.fromRGB(124, 83, 240),
+        Retract = true
+    }
+})
+-- Window
+local Window = Library.CreateLib("Darkrai X Animation Hub v0.2", "Sentinel")
+-- Tab
+
+local Tab1 = Window:NewTab("Animation Pack")
+local Tab1Section = Tab1:NewSection("Animation Pack")
+
+local Tab2 = Window:NewTab("Others Anims")
+local Tab2Section = Tab2:NewSection("Others Amins")
+
+local Tab3 = Window:NewTab("Custom Animation")
+local Tab3Section = Tab3:NewSection("Custom Animation")
+
+local Tab4 = Window:NewTab("Emotes")
+local Tab4Section = Tab4:NewSection("Emotes")
+
+local Tab5 = Window:NewTab("Animation Editor")
+local Tab5Section = Tab5:NewSection("Animation Editor")
+
+-- Tab1
+
+Tab1Section:NewToggle("Toy", "Changes Animation", function(state)
+getgenv().toy = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().toy then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204,"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+Animate.swim.SwimAnim.AnimationId = "http://www.roblox.com/asset/?id=782844582"
+Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=782845186"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Toy2", "Changes Animation", function(state)
+getgenv().toy = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().toy then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+Animate.swim.SwimAnim.AnimationId = "http://www.roblox.com/asset/?id=782844582"
+Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=782845186"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Bubbly", "Changes Animation To Zombie", function(state)
+getgenv().bubbly = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().bubbly then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=910004836"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=910009958"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=910034870"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=910025107"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=910016857"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=910001910"
+Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=910030921"
+Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=910028158"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Cartoony", "Changes Animation To Zombie", function(state)
+getgenv().cartoony = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().cartoony then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=742637544"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=742638445"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=742640026"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=742638842"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=742637942"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=742637151"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Elder", "Changes Animation To Zombie", function(state)
+getgenv().elder = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().elder then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=845397899"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=845400520"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=845403856"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=845386501"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=845398858"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=845392038"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=845396048"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Knight", "Changes Animation To Zombie", function(state)
+getgenv().knight = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().knight then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=657595757"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=657568135"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=657552124"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=657564596"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=658409194"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=658360781"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Levitation", "Changes Animation To Zombie", function(state)
+getgenv().levitation = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().levitation then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616010382"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616003713"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Mage", "Changes Animation To Zombie", function(state)
+getgenv().mage = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().mage then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=707742142"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=707855907"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=707897309"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=707861613"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=707853694"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=707826056"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=707829716"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Ninja", "Changes Animation To Zombie", function(state)
+getgenv().ninja = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().ninja then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=656117400"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=656118341"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=656121766"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=656118852"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=656117878"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=656114359"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=656115606"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Pirate", "Changes Animation To Zombie", function(state)
+getgenv().pirate = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().pirate then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=750781874"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=750782770"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=750785693"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=750783738"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=750782230"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=750779899"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=750780242"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Robot", "Changes Animation To Zombie", function(state)
+getgenv().robot = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().robot then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616088211"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616089559"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616095330"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616091570"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616090535"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616086039"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616087089"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Stylish", "Changes Animation To Zombie", function(state)
+getgenv().stylish = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().stylish then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616136790"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616138447"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616146177"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616140816"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616139451"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616133594"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616134815"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Super Hero", "Changes Animation To Zombie", function(state)
+getgenv().superhero = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().superhero then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616111295"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616113536"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616122287"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616117076"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616115533"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=616104706"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616108001"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Toy", "Changes Animation To Zombie", function(state)
+getgenv().toy = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().toy then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=782843345"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=782842708"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=782847020"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=782843869"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=782846423"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Werewolf", "Changes Animation To Zombie", function(state)
+getgenv().werewolf = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().werewolf then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083195517"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083214717"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083178339"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083216690"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083218792"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083182000"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083189019"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Vampire", "Changes Animation To Zombie", function(state)
+getgenv().vampire = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().vampire then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1083445855"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1083450166"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1083473930"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1083462077"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1083455352"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1083439238"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1083443587"
+  end
+end)
+end)
+
+Tab1Section:NewToggle("Old School", "Changes Animation To Zombie", function(state)
+getgenv().oldschool = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().oldschool then
+local Animate = game.Players.LocalPlayer.Character.Animate
+    Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=5319828216"
+    Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=5319831086"
+    Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=5319847204,"
+    Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=5319844329"
+    Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=5319841935"
+    Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=5319816685"
+    Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+  end
+end)
+end)
+
+-- Others
+Tab2Section:NewToggle("Anthro (Default)", "Changes Animation To Zombie", function(state)
+getgenv().anthro = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().anthro then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=2510196951"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=2510197257"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=2510198475"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+  end
+end)
+end)
+
+Tab2Section:NewToggle("None", "Changes Animation To Zombie", function(state)
+getgenv().none = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().none then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=0"
+Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=0"
+  end
+end)
+end)
+
+-- Tab3
+Tab3Section:NewToggle("Udzal", "Loads Udzal Animation", function(state)
+getgenv().udzal = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().udzal then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=3303162274"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=3303162549"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=3303162967"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=3236836670"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Mr.Toilet", "Loads Toilet Animation", function(state)
+getgenv().toilet = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().toilet then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4417977954"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4417978624"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=4417979645"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=2510197830"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=2510192778"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=2510195892"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Mario", "Loads Mario Animation", function(state)
+getgenv().mario = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().mario then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=782845736"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=782841498"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=2510202577"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=4417979645"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1014411816"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=742636889"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=5319839762"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Cool Guy", "Loads Mario Animation", function(state)
+getgenv().coolguy = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().coolguy then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1150842221"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=941028902"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1070017263"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1014411816"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=657600338"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1014411816"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Patrol", "Loads Mario Animation", function(state)
+getgenv().patrol = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().patrol then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1149612882"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1150842221"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1151231493"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1150967949"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1148811837"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1148811837"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1148863382"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Confident", "Loads Mario Animation", function(state)
+getgenv().confident = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().confident then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1069977950"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1069987858"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1070017263"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1070001516"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1069984524"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1069946257"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1069973677"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Pop-Star", "Loads Mario Animation", function(state)
+getgenv().popstar = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().popstar then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1212900985"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1150842221"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980338"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1212980348"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1212954642"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1213044953"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1212900995"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("CowBoy", "Loads Mario Animation", function(state)
+getgenv().cowboy = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().cowboy then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1014390418"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1014398616"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1014421541"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1014401683"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1014394726"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1014380606"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1014384571"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Ghost", "Loads Mario Animation", function(state)
+getgenv().ghost = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().ghost then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=616006778"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=616008087"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=616013216"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=616008936"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=616005863"
+Animate.swimidle.SwimIdle.AnimationId = "http://www.roblox.com/asset/?id=616012453"
+Animate.swim.Swim.AnimationId = "http://www.roblox.com/asset/?id=616011509"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Sneaky", "Loads Mario Animation", function(state)
+getgenv().sneaky = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().sneaky then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=1132473842"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=1132477671"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=1132510133"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=1132494274"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=1132489853"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=1132461372"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=1132469004"
+  end
+end)
+end)
+
+Tab3Section:NewToggle("Princess", "Loads Mario Animation", function(state)
+getgenv().princess = state
+game:GetService("RunService").RenderStepped:connect(function()
+  if getgenv().princess then
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=941003647"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=941013098"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=941028902"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=941015281"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=941008832"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=940996062"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=941000007"
+  end
+end)
+end)
+
+--Tab4
+Tab4Section:NewTab("Cower", "?", function()
+local Animate =
+game.Players.LocalPlayer.Character.Animate
+Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=4940563117"
+end)
+
+-- Tab5
+Tab5Section:NewButton("Animation Editor", "Loads Animation Editor", function()
+loadstring(game:HttpGet(("https://pastebin.com/raw/kz78EMUm")))()
+end)
